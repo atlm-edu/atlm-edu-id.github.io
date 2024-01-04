@@ -73,7 +73,7 @@ document.write("<div class='post-topik-home topik-"+[i]+"' ><div class='topik-it
 if (showthumbnail == 'on'){
 document.write("<div class='topik-item-image'><a  href=" +ListUrl+ "><img src=" +ListImage+ "/></a></div>");
 }
-document.write("<h3><a class='topik-title' href=" +ListUrl+ ">" + ListTitle+ "</a></h3>");
+document.write("<h4><a class='topik-title' href=" +ListUrl+ ">" + ListTitle+ "</a></h4>");
 if (showcontent == 'on'){
 document.write("<div class='topik-content'>" +ListContent+ "...</div> ");
 }
